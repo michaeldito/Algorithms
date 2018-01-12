@@ -7,20 +7,17 @@ Vary the value of P over the set {50, 60, 70, 80, 90} and output a
 table that shows the compression for each value of P.
 
 ## Solution
-We decided to look at the bits in blocks of size b. Our program is 
-written general enough so that we were able to test multiple values of b.
-We also added additional output, in a clear format. That way we could
-see exactly what bits were mapped to what codes, and their frequencies.
-We varied b over the set { 2, 4, 8, 16, 20, 32, 35, 40, 50, 60, 100, 125, 
-160, 200, 250, 400, 500, 625, 800, 1000 }. Decoder Bytes is roughly the
-number of bytes the decoding dictionary takes up in memory. The purpose
-of the decoding dictionary is to map huffman codes back to their original 
-bits.
+We can look at the bits in blocks of size b. The program is 
+written general enough so that there is the ability to test multiple values 
+of b. The output indicates exactly what bits were mapped to what codes, 
+and their frequencies. The block size was varied over the set 
+{ 2, 4, 8, 16, 20, 32, 35, 40, 50, 60, 100, 125, 160, 200, 250, 400, 500, 
+625, 800, 1000 }. Decoder Bytes is roughly the number of bytes the decoding 
+dictionary takes up in memory. The purpose of the decoding dictionary is to 
+map huffman codes back to their original bits.
 
-We thought, how would we decode this file later on if we didn't have the
-huffman codes mapped to the original bits somewhere? So this metric let's
-us see how many extra bits we'd need to save somwhere so that we could
-compress the file later on.
+This metric let's us see how many extra bits we'd need to save somewhere so 
+that we could decompress the file later on.
 
 ## Files Included
 - generatebits.py
