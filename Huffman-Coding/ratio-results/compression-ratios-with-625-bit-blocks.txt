@@ -1,0 +1,8 @@
+Compression Results with 625 Bit Blocks
+
+   Decoder Bytes  Encoded Bit Lengths  Original Bit Lengths   P      Ratio
+0          12568                 1184                100000  50  84.459459
+1          12568                 1184                100000  60  84.459459
+2          12568                 1184                100000  70  84.459459
+3          12568                 1184                100000  80  84.459459
+4          12568                 1184                100000  90  84.459459

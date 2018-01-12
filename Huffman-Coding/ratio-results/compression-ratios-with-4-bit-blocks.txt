@@ -1,0 +1,8 @@
+Compression Results with 4 Bit Blocks
+
+   Decoder Bytes  Encoded Bit Lengths  Original Bit Lengths   P     Ratio
+0           1048               100000                100000  50  1.000000
+1           1048                98090                100000  60  1.019472
+2           1048                88790                100000  70  1.126253
+3           1048                73917                100000  80  1.352869
+4           1048                49399                100000  90  2.024332
