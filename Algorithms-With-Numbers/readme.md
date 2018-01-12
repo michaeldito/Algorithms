@@ -79,3 +79,6 @@ begins with a lower-case letter.
   Gerneates a random binary array of length k
 - **RSA Encryption**   
   Performs RSA encryption
+
+## How to run the code
+To use the code, you must use Python 2.7
