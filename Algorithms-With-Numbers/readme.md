@@ -14,68 +14,68 @@ that accept integers begin with an upper-case letter, and the other
 begins with a lower-case letter.
 
 ## List of Algorithms
-- *Shift*
+- **Shift**   
   Shifts the binary array to the left or the right
-- *Multiplication*
+- **Multiplication**   
   Multiplies two binary arrays
-- *Zero*
+- **Zero**   
   Tests if a binary array is equal to 0
-- *Floor Division by 2*
+- **Floor Division by 2**   
   Uses floor division to divide by 2
-- *Even*
+- **Even**   
   Determines if the binary array is an even number
-- *Addition*
+- **Addition**   
   Adds two binary numbers together
-- *Exclusive Or*
+- **Exclusive Or**   
   Outputs True when the number of inputs with a value of 1 is odd
-- *Next Carry*
+- **Next Carry**   
   Returns True when the number of inputs with a value of 1 is >= 2
-- *Binary to Decimal*
+- **Binary to Decimal**   
   Converts a binary array to a decimal
-- *Decimal to Binary*
+- **Decimal to Binary**   
   Converts a decimal to a binary array
-- *Reverse*
+- **Reverse**   
   Reverses a binary array
-- *Trim*
+- **Trim**   
   Trims any trailing zeros
-- *Compare*
+- **Compare**   
   Compares two binary arrays for equality, and if one is larger/smaller
-- *Map*
+- **Map**   
   Returns an integer as a string for all binary arrays <= 9
-- *Quotient*
+- **Quotient**   
   Returns the quotient when one binary array is divided by another
-- *Divide*
+- **Divide**   
   Returns the quotient and remainder when one binary array is divided
   by another
-- *Subtract*
+- **Subtract**   
   Subtracts one binary array from another
-- *Negation*
+- **Negation**   
   Performs the negation of a binary array
-- *Append Zeros*
+- **Append Zeros**   
   Appends zeros to a binary array
-- *Exponentation*
+- **Exponentation**   
   Performs exponentation of one binary array to the power of another
-- *Greatest Common Denominator*
+- **Greatest Common Denominator**   
   Finds the greatest commond denominator of two binary arrays
-- *Euclids Greatest Common Denominator*
+- **Euclids Greatest Common Denominator**   
   Performs the extended-euclid gcd on two binary arrays
-- *Modulus*
+- **Modulus**   
   Performs the modulus of a % b
-- *Modular Exponentation*
+- **Modular Exponentation**   
   Performs modular exponenetation of A^B mod N
-- *Modular Inverse*
+- **Modular Inverse**   
   Computes the modular inverse x, for ax % N = 1
-- *Primality*
+- **Primality**   
   Determines whether N is prime using Fermat's Little Theorem
-- *Primality2*
+- **Primality2**   
   Determines whether N is prime by repeatedly calling primality k times
-- *Primality3*
+- **Primality3**   
   Determines whether N is prime. First, we check if N is divisible by
   2, 3, 5, or 7, if so we can stop and return -1. If it is not, we
   move on to primality2 where we repeatedly call primality k times
-- *Prime Number Generation*
+- **Prime Number Generation**    
   Generator for prime numbers
-- *Generate a k-bit Integer*
+- **Generate a k-bit Integer**   
   Gerneates a random binary array of length k
-- *RSA Encryption*
+- **RSA Encryption**   
   Performs RSA encryption
