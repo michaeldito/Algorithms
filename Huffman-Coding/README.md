@@ -1,8 +1,4 @@
-# Mike Dito, Justin Bernard
-# CS 415
-# Final Project
-
-## Huffman Coding Problem
+# Huffman Coding
 Given a file of N bits in which P% of the bits are zero, and (100-P)% 
 bits are one, how can we use Huffman's algorithm to compress this file?
 Implement the algorithm and display the compression ratio achieved by
