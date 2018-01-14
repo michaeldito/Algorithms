@@ -1,12 +1,3 @@
-"""
-  Mike Dito, Justin Bernard
-  huffman.py
-
-  This file will perform huffman encoding on a group of files. 
-  A file containing all names of the files should be passed as
-  an argument.
-"""
-
 from heapq import heappush, heappop
 from argparse import ArgumentParser
 from node import *
